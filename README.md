@@ -1,3 +1,4 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MariaGavilan/solar_flares&file=SolarFlares_Analysis_MATLABPython.mlx)
 
 # Analyzing solar flares with MATLAB and Python
 <a name="beginToc"></a>
@@ -115,7 +116,7 @@ open 'SolarStormPython.py'
 In this MATLAB notebook, you can add tasks, which are simple point\-and\-click interfaces that can be added to a live script to perform a specific set of operations. Tasks represent a series of MATLAB® commands. You can display their output either inline or on the right. To see the MATLAB commands that the task runs, show the generated code.  Using the Live Task to include Python code we can make the process of using this file easier.  You can find the "**Run Python Code**" Live Task in the LIVE EDITOR tab, in the "Task" menu:
 
 
-![image_5.png](SolarFlares_Analysis_MATLABPython_media/image_5.png)
+![image_5.png](media/image_5.png)
 
 
 ## **Pause \- Add your task "Run Python Code" here**
@@ -124,7 +125,7 @@ In this MATLAB notebook, you can add tasks, which are simple point\-and\-click i
 Once you have the task in your notebook, select "File" and browse to the python file called "`SolarStormPython.py`"
 
 
-![image_6.png](SolarFlares_Analysis_MATLABPython_media/image_6.png)
+![image_6.png](media/image_6.png)
 
 
 The Run Python Code task lets you interactively run Python code or files. The task automatically generates MATLAB code for your live script. Using this task you can: 
@@ -136,7 +137,7 @@ The Run Python Code task lets you interactively run Python code or files. The ta
 Once you select the file, MATLAB will list the possible output variables that you can use in MATLAB. For this example, select **`filtered_results`** and **`results_pandas`** from the list, as shown below:
 
 
-![image_7.png](SolarFlares_Analysis_MATLABPython_media/image_7.png)
+![image_7.png](media/image_7.png)
 
 ## **Use the information from Solar Flares in MATLAB**
 
@@ -162,6 +163,6 @@ class(md.hpc_radius)
 How can I use this solar flare information? Since X\-rays from the strongest flares disrupt the ionosphere, it is important to understand how this impacts the design of communications systems.
 
 
-![image_8.png](SolarFlares_Analysis_MATLABPython_media/image_8.png)
+![image_8.png](media/image_8.png)
 
 
