@@ -22,7 +22,7 @@
 The year 2024 was the solar maximum where the sun's 11\-year activity cycle peaked. This meant more frequent and intense northern lights, which went as far south as Florida, U.S. and northern India.  *(Photo taken from* [*National Geographic*](https://www.nationalgeographic.com/science/article/auroras-solar-maximum-2024)*)*  
 
 
-![image_0.png](SolarFlares_Analysis_MATLABPython_media/image_0.png)
+![image_0.png](media/image_0.png)
 
 
 The northern lights are the visible result of solar flares, which are intense and localized emissions of electromagnetic radiation in the Sun's atmosphere. During a solar flare, our atmosphere on Earth stops the x\-rays from flares. However, they do disturb the Earth's ionosphere which in turn disturbs radio communications. How?
@@ -31,13 +31,13 @@ The northern lights are the visible result of solar flares, which are intense an
 Well, solar flares occur when powerful magnetic fields, leaving and entering the sun, reconnect. They are usually associated with active regions, perceived as sunspots, where magnetic fields are the strongest. A scale is used to measure how large the spots and rashes are, where X is the top of the scale. X eruptions have the most potential to create problems in communication systems.
 
 
-![image_1.png](SolarFlares_Analysis_MATLABPython_media/image_1.png)
+![image_1.png](media/image_1.png)
 
 
 So, we need to gather data from the Sun. A very popular open source project to track observations of the Sun and the heliosphere is SunPy. This is the community Python library for solar physics, which includes quick access to open\-source solar data. The development of sunpy is closely associated with that of astropy (key package for astronomy using Python). 
 
 
-![image_2.png](SolarFlares_Analysis_MATLABPython_media/image_2.png)
+![image_2.png](media/image_2.png)
 
 
  **In this project we will analyze data for the strongest solar flares using sunpy directly in MATLAB.** 
@@ -73,7 +73,7 @@ setup
 All Python functions in MATLAB have the same basic syntax:
 
 
-![image_3.png](SolarFlares_Analysis_MATLABPython_media/image_3.png)
+![image_3.png](media/image_3.png)
 
 
 Now let's use the py syntax to call functions (py . package . function(args)); no need to use "import":
@@ -99,7 +99,7 @@ hwML = string(hw)
 In MATLAB you can check the Python code stored .py files. In the MATLAB Editor you will notice the syntax highlighting of the Python code:
 
 
-![image_4.png](SolarFlares_Analysis_MATLABPython_media/image_4.png)   
+![image_4.png](media/image_4.png)   
 
 
 Let's review the Python code first! Open the file **SolarStormPython.py** and explore its content. 
