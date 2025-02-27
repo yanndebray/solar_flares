@@ -160,9 +160,8 @@ class(md.hpc_radius)
 ```
 
 
-How can I use this solar flare information? Since X\-rays from the strongest flares disrupt the ionosphere, it is important to understand how this impacts the design of communications systems.
+How can I use this solar flare information? Since X\-rays from the strongest flares disrupt the ionosphere, it is important to understand how this impacts the design of communications systems. A quick example is included in the script.
 
 
-![image_8.png](media/image_8.png)
 
 
